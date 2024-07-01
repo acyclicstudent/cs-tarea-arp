@@ -38,7 +38,9 @@ python3 detector.py
 
 
 Al hacer ejecutar el script spoofer.py, podremos ver que en la maquina atacada el comando ARP nos da una salida como está:
+
 ![image](https://github.com/acyclicstudent/cs-tarea-arp/assets/20765048/533345a9-f7e6-42ae-a3ec-0478504dd0dc)
+
 En la cuál podemos observar que la ip del router tiene la misma dirección mac que el de la maquina atacante, además que mientras el 
 spoofer se encuentra activo y hasta que la maquina vuelva a actualizar su tabla ARP, no se tendrá acceso a internet
 ya que la maquina atacante no redirecciona los paquetes recibidos por la maquina atacada.
